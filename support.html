@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f4eddd">
-  <meta name="description" content="Help and frequently asked questions for Silt & Spire, a wet-sand physics game for iPhone.">
+  <meta name="description" content="Help and frequently asked questions for Silt & Spire, a fine-grain wet-sand sculpture game for iPhone.">
   <title>Help &amp; FAQ — Silt &amp; Spire</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -17,12 +17,13 @@
   <main id="main" class="wrap document">
     <span class="eyebrow">A little help for your next build</span>
     <h1>Help &amp; FAQ</h1>
-    <p class="lede">Silt &amp; Spire is being prepared for its first release. App Store availability has not yet been confirmed.</p>
+    <p class="lede">Build 2 is currently limited to internal TestFlight. Version 1.0 has not yet been submitted for App Review.</p>
 
     <h2>Getting started</h2>
     <div class="faq">
-      <details><summary>How do I add sand?</summary><p>Tap the play area to place one grain. To add a steady stream, press and hold while dragging to guide the drop across the foundation. Release to stop.</p></details>
-      <details><summary>What does the moisture slider change?</summary><p>It changes the sand mixture. Drier sand is more crumbly; wetter sand is heavier and more fluid. The grains settle differently as moisture changes. The control is a standard slider with an adjustable value as well as touch input.</p></details>
+      <details><summary>How do I add sand?</summary><p>Tap Add a pinch for a short pour. To guide a continuous stream, press and hold while dragging across the foundation. Release to stop.</p></details>
+      <details><summary>What does the wetness slider change?</summary><p>It changes the simplified grain-spreading and cohesion rules. Dry sand spreads more, a damp mix can hold steeper forms, and runny sand slumps more easily. The slider is adjustable with touch and standard iOS accessibility controls.</p></details>
+      <details id="sand-model"><summary>How does the sand model work?</summary><p>Fine grains fall under gravity and settle using nearby contacts in a three-dimensional scene. A reduced-order rule tracks support, center of mass, and moisture-dependent cohesion. It is a playful game model, not a full discrete-element or fluid simulation.</p></details>
       <details><summary>What are Cove, Spire, and Ledge?</summary><p>They are three foundations with different widths. Cove is broad, Spire is narrower, and Ledge is the most constrained. Each gives the same sand a different balance problem.</p></details>
       <details><summary>Why did my sculpture lean or fall?</summary><p>The game tracks the sculpture’s center of mass and support. A pile can become unstable when its weight shifts beyond the ground contact or a narrow section can no longer bear the load. A topple is part of the physics, not a lost online score.</p></details>
       <details><summary>How do I start again?</summary><p>Use Restart to clear the active pile and begin a fresh attempt on the selected foundation. Your saved postcards and best local records are kept when you restart a pile. A collapse ends the current build; restart to try another arrangement.</p></details>
@@ -38,12 +39,12 @@
 
     <h2>Accessibility and controls</h2>
     <div class="faq">
-      <details><summary>Can I play without dragging?</summary><p>Yes. Tapping places a single grain, so you do not need to hold and drag. The moisture level can be adjusted with the slider control as well as by touch. Controls are designed to work with iOS accessibility features, including VoiceOver labels and adjustable slider values.</p></details>
+      <details><summary>Can I play without dragging?</summary><p>Yes. Add a pinch gives you a short pour without a drag gesture, and the wetness level can be adjusted with the slider. Controls include VoiceOver labels and adjustable slider values.</p></details>
       <details><summary>Are the controls small?</summary><p>We are designing the controls for clear labels and comfortable touch targets. If a control is difficult to use on your device, email us with the device model and iOS version so we can investigate.</p></details>
     </div>
 
     <h2>App status</h2>
-    <p>Silt &amp; Spire is being prepared for release. We will update this page when App Store approval and public availability are confirmed. An App Store link will appear here only after it has been verified.</p>
+    <p>Build 2 is currently limited to internal TestFlight. Version 1.0 has not yet been submitted for App Review. We will add an App Store link after approval and verified public availability.</p>
     <h2>Contact</h2>
     <p>For help or accessibility feedback, email <a href="mailto:nahart86@gmail.com">nahart86@gmail.com</a>. Please include your iPhone model and iOS version if relevant. Do not include sensitive personal information or private files.</p>
   </main>

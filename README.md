@@ -8,11 +8,11 @@ Open `index.html` in a browser, or serve this directory with any static file ser
 
 ## Pages
 
-- `index.html` — product introduction and CSS-built sand illustrations
+- `index.html` — product introduction with the approved iPhone Duo gameplay still and a controls-enabled iPhone gameplay video
 - `support.html` — gameplay, accessibility, saved work, and release-status FAQ
 - `privacy.html` — app and support-site privacy information
 
-The app is presented as prelaunch until App Store approval and public availability are verified. Add a real App Store link only after checking it resolves to the released listing. A current sculpture resets on relaunch; saved studies and best records persist locally on the device. The product illustrations are CSS artwork and can be replaced with actual screenshots when available; no image placeholders use broken paths.
+Build 2 is available only to internal TestFlight testers; version 1.0 has not yet been submitted for App Review. The homepage media is from the visually approved build: a 2853 × 2007 iPhone Duo capture and a 30-second iPhone gameplay video. Add a real App Store link only after approval and verifying it resolves to the public listing. A current sculpture resets on relaunch; saved studies and best records persist locally on the device. Non-screen illustrations are CSS artwork.
 
 Support contact: nahart86@gmail.com
 
