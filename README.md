@@ -12,7 +12,7 @@ Open `index.html` in a browser, or serve this directory with any static file ser
 - `support.html` — gameplay, accessibility, saved work, and release-status FAQ
 - `privacy.html` — app and support-site privacy information
 
-Build 2 is available only to internal TestFlight testers; version 1.0 has not yet been submitted for App Review. The homepage media is from the visually approved build: a 2853 × 2007 iPhone Duo capture and a 30-second iPhone gameplay video. Add a real App Store link only after approval and verifying it resolves to the public listing. A current sculpture resets on relaunch; saved studies and best records persist locally on the device. Non-screen illustrations are CSS artwork.
+Version 1.0 (build 2) is available only to internal TestFlight testers and is awaiting Apple review. The homepage media is from the visually approved build: a 2853 × 2007 iPhone Duo capture and an approximately 30-second iPhone gameplay video. Add a real App Store link only after approval and verifying it resolves to the public listing. A current sculpture resets on relaunch; saved studies and best records persist locally on the device. Non-screen illustrations are CSS artwork.
 
 Support contact: nahart86@gmail.com
 
